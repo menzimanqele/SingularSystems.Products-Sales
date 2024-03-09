@@ -1,13 +1,8 @@
-import './App.css';
+import "./App.css";
+import { AppRoutes } from "./routing/AppRoutes";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Welcome to Singular Systems Products Dashboard 
-      </header>
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
