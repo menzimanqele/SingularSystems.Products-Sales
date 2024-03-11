@@ -1,6 +1,6 @@
 export class Product{
     constructor(jsonData){
-        this.id = 0;
+        this.id = '';
         this.description ='';
         this.salePrice=0;
         this.category='';
