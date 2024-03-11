@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import { Dashboard } from "../pages/dashboard";
 import { ProductList } from "../pages/products/productsList/productList";
+import { productListPath } from "./navigationPaths";
+
 
 export function AppRoutes() {
   return(
@@ -9,7 +11,7 @@ export function AppRoutes() {
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Dashboard />}></Route>
-      <Route path="product-list" element={<ProductList />}></Route>
+      <Route path={productListPath} element={<ProductList />}></Route>
     </Routes>
   </BrowserRouter>
   );
