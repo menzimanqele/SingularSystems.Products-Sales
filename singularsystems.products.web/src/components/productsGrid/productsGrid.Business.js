@@ -14,16 +14,17 @@ export class ProductGridBusiness{
             sortable: false,
             renderCell: (params) => {
               const product = params.row;
-              const onClick = (e) => {
+              const cbClickProductImage = (e) => {
                 e.stopPropagation(); 
                 handleViewProductImage({url:product.image, desc:product.description});
               };
 
-              const productSummaryHandler = (e)=>{
+              const cbClickProductSummary = (e)=>{
+                e.stopPropagation(); 
                 handleProductSummary(product.id);
               };
         
-              return [<MmsTwoToneIcon onClick={onClick}></MmsTwoToneIcon>,<SummarizeTwoToneIcon onClick={productSummaryHandler}></SummarizeTwoToneIcon>];
+              return [<MmsTwoToneIcon onClick={cbClickProductImage}></MmsTwoToneIcon>,<SummarizeTwoToneIcon onClick={cbClickProductSummary}></SummarizeTwoToneIcon>];
             }
           },
        ];
