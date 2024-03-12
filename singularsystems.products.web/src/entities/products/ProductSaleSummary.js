@@ -1,6 +1,6 @@
-export class ProductSale{
+export class ProductSaleSummary{
     constructor(jsonData){
-        this.saleId = '',
+        this.saleId = '';
         this.productId='';
         this.salePrice='';
         this.saleQty='';

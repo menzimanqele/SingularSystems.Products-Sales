@@ -15,7 +15,7 @@ class Logger {
           `Logger:info, file name : ${fileName} , scope :${scope} and message :${message} cannot be empty/undefined`
         );
       }
-      console.info(`${fileName}:${scope} , ${message} `, exceptionOrData);
+      console.info(`${fileName}:${scope} , ${message} ,`, exceptionOrData);
     };
   
     /**
@@ -32,7 +32,7 @@ class Logger {
           `Logger:info, file name : ${fileName} , scope :${scope} and message :${message} cannot be empty/undefined`
         );
       }
-      console.error(`${fileName}:${scope} , ${message} `, exceptionOrData);
+      console.error(`${fileName}:${scope} , ${message} ,`, exceptionOrData);
   };
   
   /**
@@ -49,7 +49,7 @@ class Logger {
           `Logger:info, file name : ${fileName} , scope :${scope} and message :${message} cannot be empty/undefined`
         );
       }
-      console.warn(`${fileName}:${scope} , ${message} `, exceptionOrData);
+      console.warn(`${fileName}:${scope} , ${message} ,`, exceptionOrData);
     };
   }
   
