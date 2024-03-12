@@ -21,10 +21,10 @@ export class ProductGridBusiness{
 
               const cbClickProductSummary = (e)=>{
                 e.stopPropagation(); 
-                handleProductSummary(product.id);
+                handleProductSummary({id:product.id,description:product.description});
               };
         
-              return [<MmsTwoToneIcon onClick={cbClickProductImage}></MmsTwoToneIcon>,<SummarizeTwoToneIcon onClick={cbClickProductSummary}></SummarizeTwoToneIcon>];
+              return [<MmsTwoToneIcon onClick={cbClickProductImage} key='productImageAction'></MmsTwoToneIcon>,<SummarizeTwoToneIcon onClick={cbClickProductSummary} key='productSaleAction'></SummarizeTwoToneIcon>];
             }
           },
        ];

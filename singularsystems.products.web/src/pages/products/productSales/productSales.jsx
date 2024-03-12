@@ -1,19 +1,27 @@
 
 import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { ProductSalesComponent } from "../../../components/productSalesSummary/productSalesSummaryComponent";
 import Link from '@mui/material/Link';
 import { productListPath } from "../../../routing/navigationPaths";
-import { useEffect } from "react";
+import { Logger } from "../../../jsUtils/logging/logger";
+import { ProductSaleSummary } from "../../../entities/products/ProductSaleSummary";
+
 
 /**
  * Product Sales Page 
  */
 export function ProductSales() {
     const { state: { productId, productDescription } } = useLocation();
+    const [productSalesSummary, setProductSalesSummary] = useState([]);
+    const logger = new Logger();
 
-    useEffect(()=>{
-
-    },[]);
+    useEffect(() => {
+        if (productId) {
+            const results = getProductSales(productId);
+            setProductSalesSummary(results);
+        }
+    }, [productId]);
     const productSalesData = [
         {
             "saleId": 310,
@@ -311,12 +319,26 @@ export function ProductSales() {
         }
     ];
 
+    /**
+     *  Get product sales for a product 
+     * @param {int} productId 
+     */
+    function getProductSales(productId) {
+        logger.info('productList', 'getProductSales', 'getting product sales', productId);
+
+        if (productId === undefined) {
+            logger.error('productList', 'getProductSales', 'product is invalid cannot get product sales', productId);
+        }
+        const results = productSalesData.filter(filterItem => filterItem.productId === productId).map(item => new ProductSaleSummary(item));
+        return results;
+    }
+
     return (
         <>
             <div className='App'>
                 <Link href={productListPath}>Back to Products </Link>
                 <ProductSalesComponent
-                    productSales={productSalesData}
+                    productSales={productSalesSummary}
                     productDescription={productDescription}
                 ></ProductSalesComponent>
             </div>

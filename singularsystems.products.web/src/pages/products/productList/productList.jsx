@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom"
 import '../../../App.css'
 import { Product } from '../../../entities/products/Product'
 import { ProductsGrid } from '../../../components/productsGrid/productsGrid';
 import { Logger } from '../../../jsUtils/logging/logger';
-import { ProductSales } from '../../../components/productSales/productSales';
+import { productSalesPath } from '../../../routing/navigationPaths';
 
 export function ProductList() {
   const [products, setProducts] = useState([]);
-  const [productSales, setProductSales] = useState([]);
-  const logger = new Logger
-
+  const navigate = useNavigate();
+  const logger = new Logger();
+  
   useEffect(() => {
     const productResult = getProducts();
     setProducts(productResult);
@@ -461,20 +462,6 @@ export function ProductList() {
   };
 
   /**
-   *  Get product sales for a product 
-   * @param {int} productId 
-   */
-  function getProductSales(productId) {
-    logger.info('productList', 'getProductSales', 'getting product sales', productId);
-
-    if (productId === undefined) {
-      logger.error('productList', 'getProductSales', 'product is invalid cannot get product sales', productId);
-    }
-    const results = productSalesData.filter(filterItem => filterItem.productId === productId).map(item => new ProductSales(item));
-    return results;
-  }
-
-  /**
    * handler for Product image 
    * @param {url:'', desc:''} metaData 
    */
@@ -484,16 +471,15 @@ export function ProductList() {
 
   /**
    * handler for Product Summary
-   * @param {int} productId 
+   * @param {id:'', productDescription:''}   
    */
-  function handleProductSummary(productId) {
-    logger.info('productList', 'handleProductSummary', 'view product summary product id', productId);
+  function handleProductSummary(product) {
+    logger.info('productList', 'handleProductSummary', 'view product summary product id', product);
 
-    if (productId === undefined) {
-      logger.error('productList', 'handleProductSummary', 'product is invalid cannot get product sales', productId);
+    if (product.id === undefined) {
+      logger.error('productList', 'handleProductSummary', 'product is invalid cannot get product sales', product.id);
     } else {
-      const results = getProductSales(productId);
-      setProductSales(results);
+      navigate(productSalesPath,{state:{productId:product.id,productDescription:product.description}});
     }
   }
 
@@ -501,10 +487,6 @@ export function ProductList() {
   return (
     <div className='App'>
       <h1>Product list </h1>
-
-      <ProductSales
-        productSales={productSales}
-      ></ProductSales>
 
       <ProductsGrid
         products={products}
