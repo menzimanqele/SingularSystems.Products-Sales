@@ -3,13 +3,15 @@ import { Logger } from "../../jsUtils/logging/logger";
 
 export class ProductService extends HttpService{
     constructor(){
+       // super(process.env.REACT_APP_PRODUCTS_URL);
+       super('http://localhost:5000')
         this.logger = new Logger();
-        return super( process.env.REACT_APP_PRODUCTS_URL);
+   
     }
 
 
     async getAllProducts(){
-        const results = await this.httpHandler.get('products');
+        const results = await this.get('products');
 
         if(results) return results;
 

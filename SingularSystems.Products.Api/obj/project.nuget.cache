@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v1NELtx1y906TeWjzS60X9lh8wbjDb9Tw3e89wv+XPHULd/dlfnylsiHrTr7iB8e0G6mVZOidb1cBwdVNMkXaQ==",
+  "success": true,
+  "projectFilePath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Products.Api/SingularSystems.Products.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/menzimanqele/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

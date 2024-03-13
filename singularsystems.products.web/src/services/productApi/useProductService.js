@@ -7,8 +7,8 @@ export const useProductService = ()=>{
             const results = await service.getAllProducts();
             if(results.data){
                 await cbSuccess(results.data);
-            }
-    }
+            }   
+    }               
 
     return{
         getAllProducts

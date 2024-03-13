@@ -1,0 +1,13 @@
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/bin/Debug/net8.0/SingularSystems.Common.HttpSupport.deps.json
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/bin/Debug/net8.0/SingularSystems.Common.HttpSupport.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/bin/Debug/net8.0/SingularSystems.Common.HttpSupport.pdb
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.csproj.AssemblyReference.cache
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.GeneratedMSBuildEditorConfig.editorconfig
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.AssemblyInfoInputs.cache
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.AssemblyInfo.cs
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.csproj.CoreCompileInputs.cache
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.sourcelink.json
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/refint/SingularSystems.Common.HttpSupport.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/SingularSystems.Common.HttpSupport.pdb
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/Debug/net8.0/ref/SingularSystems.Common.HttpSupport.dll

@@ -6,6 +6,7 @@ import Link from '@mui/material/Link';
 import { productListPath } from "../../../routing/navigationPaths";
 import { Logger } from "../../../jsUtils/logging/logger";
 import { ProductSaleSummary } from "../../../entities/products/ProductSaleSummary";
+import { useProductService } from "../../../services/productApi/useProductService";
 
 
 /**
@@ -15,6 +16,11 @@ export function ProductSales() {
     const { state: { productId, productDescription } } = useLocation();
     const [productSalesSummary, setProductSalesSummary] = useState([]);
     const logger = new Logger();
+    const productService =  useProductService();
+
+    useEffect(()=>{
+getData();
+    },[])
 
     useEffect(() => {
         if (productId) {
@@ -331,6 +337,13 @@ export function ProductSales() {
         }
         const results = productSalesData.filter(filterItem => filterItem.productId === productId).map(item => new ProductSaleSummary(item));
         return results;
+    }
+
+    async function getData(){
+        await productService.getAllProducts(
+            ()=> alert('error'),
+            async (data)=> alert(data.length)
+        );
     }
 
     return (
