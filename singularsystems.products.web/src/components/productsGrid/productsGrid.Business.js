@@ -9,24 +9,34 @@ export class ProductGridBusiness{
         { field: "salePrice", headerName: "Sale Price", width: 150 },
         { field: "category", headerName: "Category", width: 300 },
         {
-            field: "action",
-            headerName: "Action",
+            field: "productImageAction",
+            headerName: "Product Image",
             sortable: false,
+            width: 150,
             renderCell: (params) => {
               const product = params.row;
               const cbClickProductImage = (e) => {
                 e.stopPropagation(); 
                 handleViewProductImage({url:product.image, desc:product.description});
               };
-
+              return <MmsTwoToneIcon onClick={cbClickProductImage} key='productImageAction'></MmsTwoToneIcon>;
+            }
+          },
+          {
+            field: "SalesSummaryAction",
+            headerName: "Sales Summary",
+            sortable: false,
+            width: 150,
+            renderCell: (params) => {
+              const product = params.row;
+             
               const cbClickProductSummary = (e)=>{
                 e.stopPropagation(); 
                 handleProductSummary({id:product.id,description:product.description});
               };
-        
-              return [<MmsTwoToneIcon onClick={cbClickProductImage} key='productImageAction'></MmsTwoToneIcon>,<SummarizeTwoToneIcon onClick={cbClickProductSummary} key='productSaleAction'></SummarizeTwoToneIcon>];
+              return<SummarizeTwoToneIcon onClick={cbClickProductSummary} key='productSalesSummaryAction'></SummarizeTwoToneIcon>;
             }
-          },
+          }
        ];
        return columnsItems;
     }

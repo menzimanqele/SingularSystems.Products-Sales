@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/SingularSystems.Api.Products.csproj": {}
+  },
+  "projects": {
+    "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/SingularSystem.Api.Products.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/SingularSystem.Api.Products.Domain.csproj",
+        "projectName": "SingularSystem.Api.Products.Domain",
+        "projectPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/SingularSystem.Api.Products.Domain.csproj",
+        "packagesPath": "/Users/menzimanqele/.nuget/packages/",
+        "outputPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menzimanqele/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/SingularSystems.Api.Products.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/SingularSystems.Api.Products.csproj",
+        "projectName": "SingularSystems.Api.Products",
+        "projectPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/SingularSystems.Api.Products.csproj",
+        "packagesPath": "/Users/menzimanqele/.nuget/packages/",
+        "outputPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menzimanqele/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/SingularSystem.Api.Products.Domain.csproj": {
+                "projectPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/SingularSystem.Api.Products.Domain.csproj"
+              },
+              "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/SingularSystems.Common.HttpSupport.csproj": {
+                "projectPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/SingularSystems.Common.HttpSupport.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Enrichers.Context": {
+              "target": "Package",
+              "version": "[4.6.5, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/SingularSystems.Common.HttpSupport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/SingularSystems.Common.HttpSupport.csproj",
+        "projectName": "SingularSystems.Common.HttpSupport",
+        "projectPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/SingularSystems.Common.HttpSupport.csproj",
+        "packagesPath": "/Users/menzimanqele/.nuget/packages/",
+        "outputPath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menzimanqele/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

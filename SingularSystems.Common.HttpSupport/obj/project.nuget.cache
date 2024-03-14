@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "+lFzDqh04g7KkqOnAjZWBiGCGBXnd7LV+Km68/53r8Y4LSGM8A2ql56zxRGotqbNSpQrL8AjjV3eiBFVr+4iGw==",
+  "success": true,
+  "projectFilePath": "/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Common.HttpSupport/SingularSystems.Common.HttpSupport.csproj",
+  "expectedPackageFiles": [
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/menzimanqele/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

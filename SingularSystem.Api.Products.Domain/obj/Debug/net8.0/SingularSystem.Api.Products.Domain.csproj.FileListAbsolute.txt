@@ -1,0 +1,12 @@
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.deps.json
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.pdb
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.AssemblyInfoInputs.cache
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.AssemblyInfo.cs
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.csproj.CoreCompileInputs.cache
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.sourcelink.json
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/refint/SingularSystem.Api.Products.Domain.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/SingularSystem.Api.Products.Domain.pdb
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystem.Api.Products.Domain/obj/Debug/net8.0/ref/SingularSystem.Api.Products.Domain.dll

@@ -7,5 +7,6 @@ export class ProductSaleSummary{
         this.saleDate='';
 
         Object.assign(this,jsonData);
+       
     }
 }
