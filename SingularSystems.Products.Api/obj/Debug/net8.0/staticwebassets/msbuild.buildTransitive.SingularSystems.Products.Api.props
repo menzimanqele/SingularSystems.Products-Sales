@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/SingularSystems.Products.Api.props" />
-</Project>

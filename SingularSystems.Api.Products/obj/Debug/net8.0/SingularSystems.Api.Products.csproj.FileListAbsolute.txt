@@ -22,8 +22,10 @@
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.dll
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/SingularSystems.Common.HttpSupport.dll
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/SingularSystems.Common.HttpSupport.pdb
+/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.pdb
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/Debug/net8.0/SingularSystems.Api.Products.csproj.AssemblyReference.cache
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/Debug/net8.0/SingularSystems.Api.Products.GeneratedMSBuildEditorConfig.editorconfig
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/Debug/net8.0/SingularSystems.Api.Products.AssemblyInfoInputs.cache
@@ -46,5 +48,3 @@
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/Debug/net8.0/SingularSystems.Api.Products.pdb
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/Debug/net8.0/SingularSystems.Api.Products.genruntimeconfig.cache
 /Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/obj/Debug/net8.0/ref/SingularSystems.Api.Products.dll
-/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.dll
-/Users/menzimanqele/Projects/SingularSystems/SingularSystem.Products/SingularSystems.Api.Products/bin/Debug/net8.0/SingularSystem.Api.Products.Domain.pdb

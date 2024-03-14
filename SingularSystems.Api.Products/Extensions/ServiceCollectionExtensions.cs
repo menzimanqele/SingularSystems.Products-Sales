@@ -22,6 +22,7 @@ namespace SingularSystems.Api.Products.Extensions
 
             services.AddHttpSupport(configuration);
             services.AddHttpClient();
+            
         }
 	}
 }
