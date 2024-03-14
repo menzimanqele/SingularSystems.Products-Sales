@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+## Setup to run the app
+`npm i`
+`npm run start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -35,5 +36,3 @@ Expected baseUrl : http://localhost:5000
 The api must be started first  
 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
